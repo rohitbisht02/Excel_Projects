@@ -56,16 +56,16 @@ It explores how different factors like number of stops, airline, class, and days
 
 - ![](Project_screenshots/rawdataset.png)
 - ![](Project_screenshots/Analysis_goals.png)
-- ![](Project_screenshots/Average_price_by_Airlines(column chart).png)
-- ![](Project_screenshots/Average_price_by_Source_City(Line chart).png)
-- ![](Project_screenshots/Average_price_by_Departure_Time(Line chart).png)
-- ![](Project_screenshots/Average_price_by_Stops_and_class(column chart).png)
-- ![](Project_screenshots/Average_price_by_Arrival_Time(Line chart).png)
-- ![](Project_screenshots/Average_price_by_Destination_City(Line chart).png)
-- ![](Project_screenshots/Average_price_by_Class(Pie chart).png)
-- ![](Project_screenshots/Average_price_by_Days_Left(Line chart).png)
-- ![](Project_screenshots/Average_price_by_Durations(Line chart).png)
-- ![](Project_screenshots/Aieline_Price_Analysis(Dashboard).png)
+- ![](Project_screenshots/Average_price_by_Airlines.png)
+- ![](Project_screenshots/Average_price_by_Source_City.png)
+- ![](Project_screenshots/Average_price_by_Departure_Time.png)
+- ![](Project_screenshots/Average_price_by_Stops_and_class.png)
+- ![](Project_screenshots/Average_price_by_Arrival_Time.png)
+- ![](Project_screenshots/Average_price_by_Destination_City.png)
+- ![](Project_screenshots/Average_price_by_Class.png)
+- ![](Project_screenshots/Average_price_by_Days_Left.png)
+- ![](Project_screenshots/Average_price_by_Durations.png)
+- ![](Project_screenshots/Airline_Price_Analysis(Dashboard).png)
 
 ---
 
