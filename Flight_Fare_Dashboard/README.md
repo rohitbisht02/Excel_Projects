@@ -1,65 +1,72 @@
 # ✈️ Flight Fare Analysis Dashboard (India)
 
-This project focuses on analyzing flight fare patterns across major Indian cities using **Excel**.  
-It explores how different factors like number of stops, airline, class, and days left to departure affect flight prices.
+This project explores domestic flight fare trends across major Indian cities using Microsoft Excel. The dashboard uncovers how various factors like city, class, airline, and booking window affect pricing.
 
 ---
 
 ## 📁 Dataset Info
 
-- **Source:** Kaggle (Domestic Indian Flights Dataset)  
-- **Rows:** 300,154  
-- **Columns:** 12 features including:  
-  - Airline, Source & Destination Cities  
-  - Departure/Arrival Times  
-  - Stops, Duration, Class  
-  - Days Left to Departure  
-  - Price  
+- **Source**: Kaggle – [Domestic Indian Flights Dataset]
+- **Rows**: 300,154
+- **Columns**:
+  - Airline
+  - Flight
+  - Source & Destination Cities
+  - Departure/Arrival Times
+  - Stops
+  - Duration
+  - Class
+  - Days Left
+  - Price
+
+📂 Uploaded Files:
+- `Data/raw_flight_data.csv` – Original dataset from Kaggle  
+- `Data/cleaned_flight_data.xlsx` – Cleaned data used for visualization
 
 ---
 
 ## 🧹 Steps Performed
 
-1. Cleaned and formatted raw data for analysis.
-2. Created multiple pivot tables to analyze:
+1. Cleaned and formatted the raw dataset in Excel.
+2. Handled inconsistencies in class, time slots, and column formats.
+3. Built pivot tables and charts to analyze:
    - Airline-wise pricing
-   - Price vs Time (departure, arrival)
-   - Price vs Stops, Class, Duration, Days Left
-3. Added slicers for interactive filtering.
-4. Used conditional formatting to highlight pricing trends.
-5. Built a fully interactive Excel dashboard.
+   - Class-wise fare differences
+   - Effect of departure/arrival time on pricing
+   - Influence of stops, duration, and booking window
+4. Added slicers for interactive filtering (e.g., class, airline, city).
+5. Designed an interactive Excel dashboard.
 
 ---
 
-## 📊 Key Insights
+## 🧐 Key Insights & Explanations
 
-- ✈️ **Non-stop flights** were significantly cheaper on average.
-- ⏰ **Prices increased** as the departure date approached.
-- 🏷️ **Business class** fares were consistently higher across all airlines.
-- 🕐 **Evening flights** had higher prices than morning ones.
+- 🛫 **Flights with Chennai or Kolkata** as source/destination tend to be costlier due to fewer flight options and less competition.
+- 🏙️ **Delhi flights** are cheaper on average due to high traffic volume and more airline choices.
+- 🧳 **Only Air India and Vistara** offer Business Class since they are full-service carriers, unlike budget airlines.
+- ⏰ **Morning and Evening flights** are expensive due to high demand (business hours).
+- 🌙 **Early Morning and Late Night flights** are cheaper as they’re less preferred by most passengers.
 
 ---
 
-## 🧰 Tools Used
+## 📊 Tools & Techniques Used
 
 - Microsoft Excel  
 - Pivot Tables  
-- Slicers  
+- Slicers for interactivity  
 - Conditional Formatting  
-- Charts (Column, Line, Pie)
+- Charts (Bar, Line, Pie)
 
 ---
 
 ## 📸 Sample Visualizations
-
-> 📝 Screenshots of dashboard and analysis
 
 - ![](Project_screenshots/rawdataset.png)
 - ![](Project_screenshots/Analysis_goals.png)
 - ![](Project_screenshots/Average_price_by_Airlines.png)
 - ![](Project_screenshots/Average_price_by_Source_City.png)
 - ![](Project_screenshots/Average_price_by_Departure_Time.png)
-- ![](Project_screenshots/Average_price_by_Stops_and_class.png)
+- ![](Project_screenshots/Average_price_by_Stops_and_Class.png)
 - ![](Project_screenshots/Average_price_by_Arrival_Time.png)
 - ![](Project_screenshots/Average_price_by_Destination_City.png)
 - ![](Project_screenshots/Average_price_by_Class.png)
@@ -71,14 +78,15 @@ It explores how different factors like number of stops, airline, class, and days
 
 ## 🚀 How to Explore
 
-1. Download the Excel file: `Flight_Price_Analysis(Dashboard).xlsx`
-2. Open it in Excel (2016 or later)
-3. Use slicers and filters to interact with the dashboard
+1. Download `Flight_Price_Analysis(Dashboard).xlsx`
+2. Open in Excel (2016 or later)
+3. Use slicers to filter by Airline, City, Class, etc.
 
 ---
 
 ## 📎 Project Status
 
-✅ Completed and fully documented  
-✅ Hosted with visuals, screenshots, and Excel dashboard  
-📌 Available on [GitHub](https://github.com/rohitbisht02/Excel_Projects/tree/main/Flight_Fare_Dashboard)
+✅ Completed  
+📌 Hosted on GitHub with full visuals, cleaned data, and documentation
+
+---
